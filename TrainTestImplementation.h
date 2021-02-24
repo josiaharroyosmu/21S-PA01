@@ -13,7 +13,7 @@ using namespace std;
 
 class TrainTestImplementation {
 private:
-    vector<Tweet> TweetList;
+    vector<Tweet> tweetList;
     vector<DSString> positiveWords;
     vector<DSString> negativeWords;
 public:

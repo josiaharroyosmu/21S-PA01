@@ -1,11 +1,13 @@
 #include <iostream>
 #include <fstream>
-
+#include "TrainTestImplementation.h"
 
 
 
 int main() {
-
+    TrainTestImplementation data;
+    vector<Word> words;
+    data.trainingData(words);
 
     return 0;
 
