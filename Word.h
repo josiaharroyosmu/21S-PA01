@@ -12,6 +12,7 @@ private:
     DSString str;
     int countPos;
     int countNeg;
+    bool stopWord;
 public:
     Word();
     Word(DSString str, int countPos, int countNeg);
@@ -21,6 +22,9 @@ public:
     void setPositive(int countPos);
     int getNegative();
     void setNegative(int countNeg);
+    bool getStopWord();
+    void setStopWord(bool stopWord);
+    bool checkIfStopWord(DSString stopWord);
 };
 
 
