@@ -1,7 +1,7 @@
-#define CATCH_AMALGAMATED_CONFIG_RUNNER
-
 #include <iostream>
 #include <fstream>
+
+
 
 
 

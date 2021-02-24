@@ -74,7 +74,7 @@ public:
      * param numChars - the number (count) of characters to copy into
      *    the substring
      **/
-    DSString substring(int start, int numChars);
+    //DSString substring(int start, int numChars);
 
     /**
      * the c_str function returns a null-terminated c-string holding the
@@ -82,11 +82,6 @@ public:
      **/
     char* c_str();
 
-    /**
-     * Overloaded stream insertion operator to print the contents of this
-     * string to the output stream in the first argument.
-     **/
-    friend std::ostream& operator<< (std::ostream&, const DSString&);
 
     //You are free to add more functionality to the class.  For example,
     //you may want to add a find(...) function that will search for a
