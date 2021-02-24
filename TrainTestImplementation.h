@@ -7,6 +7,8 @@
 
 #include "Tweet.h"
 #include <vector>
+#include <iostream>
+
 using namespace std;
 
 class TrainTestImplementation {
@@ -16,6 +18,10 @@ private:
     vector<DSString> negativeWords;
 public:
     TrainTestImplementation();
+    Tweet createTweet(char* line, ifstream& trainingFile1, ifstream& trainingFile2);
+    void trainingData(vector<Word>& words);
+
+
 
 
 
